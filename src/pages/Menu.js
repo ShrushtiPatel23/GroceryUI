@@ -37,8 +37,7 @@ function Menu() {
             <span className='text-red-500'>&#8377;</span>
             <span>{productDisplay[0]?.price}</span>
           </p>
-          <div className='flex gap-3 ml-2 m-2 mb-0'>
-            <button className='bg-yellow-500 min-w-[100px] py-2 my-5 mt-2 rounded hover:bg-yellow-700'>Buy</button>
+          <div className='ml-2 m-2 mb-0'>
             <button className='bg-yellow-500 min-w-[100px] py-2 my-5 mt-2 rounded hover:bg-yellow-700' onClick={handleAddCartProduct}>Add Cart</button>
           </div>
 
